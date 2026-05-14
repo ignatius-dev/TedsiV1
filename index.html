@@ -325,7 +325,7 @@ let selectedImage = null;
 // لود مدل
 async function loadModel() {
   try {
-    model = await tf.loadLayersModel('https://ignatius-dev.github.io/tedsi/tfjs_model/model.json');
+    model = await tf.loadLayersModel('https://ignatius-dev.github.io/TedsiV1/tfjs_model/model.json');
     document.getElementById('modelStatus').textContent = '✅ مدل آماده‌ست';
 
 document.getElementById('modelStatus').className = 'status ready';
